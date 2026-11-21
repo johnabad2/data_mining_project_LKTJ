@@ -1,0 +1,11 @@
+check,value
+processed_records,7388
+numerical_predictors,25
+exact_duplicate_rows,0
+unique_recorded_smiles,7341
+repeated_smiles_beyond_first,47
+repeated_smiles_groups,40
+records_in_repeated_smiles_groups,87
+rows_missing_any_predictor,65
+missing_predictor_cells,71
+existing_adjusted_complete_cases,7378
