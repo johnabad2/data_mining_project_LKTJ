@@ -30,12 +30,14 @@ Seed 42 gives **5,909 training / 1,479 test records**. Repeated SMILES stay toge
 
 Create `.venv` with `python -m venv .venv` first if needed. In VS Code, select this environment for both notebooks.
 
-- [Exploration notebook](notebooks/01_data_exploration.ipynb): original cleaning, audit and Spearman test; original cell sources preserved.
-- [ML notebook](notebooks/02_machine_learning.ipynb): visible code, diagnostics, comparisons, importance and conclusion.
+- [Exploration notebook](notebooks/01_data_exploration.ipynb): cleaning, dataset audit and Spearman test, with code, outputs and method notes.
+- [ML notebook](notebooks/02_machine_learning.ipynb): regression diagnostics, model comparisons and feature importance, with code, outputs and method notes.
 - [results/](results/): numerical outputs, predictions, splits and version/hash manifest.
 - [figures/](figures/): five new `ml_*.png` figures; original graphs preserved.
 
 Omit `--all` to run only ML. Regenerate original plots with `python src/data_visualisation.py --no-show`; additional scripts remain in `src/exploratory/`.
+
+Cleaning and statistical analysis are implemented in the notebooks. Both notebooks are technical records; findings are summarised above.
 
 ## Current progress
 
