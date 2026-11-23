@@ -48,5 +48,3 @@ Cleaning and statistical analysis are implemented in the notebooks. Both noteboo
 - [x] Complete permutation importance and the three HBA descriptor comparisons.
 - [x] Interpret the results and write the final conclusion.
 - [x] Execute both notebooks and verify saved outputs and unchanged data.
-
-The requested repository analysis is complete. External/scaffold validation and mechanistic experiments remain possible follow-up research.
